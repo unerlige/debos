@@ -72,6 +72,7 @@ RUN apt-get update && \
         qemu-user-static \
         systemd \
         systemd-container \
+        ubuntu-keyring \
         xz-utils && \
     rm -rf /var/lib/apt/lists/*
 
